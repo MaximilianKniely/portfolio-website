@@ -13,7 +13,7 @@ export default function Projects() {
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             My Projects
           </h2>
-          <div className="w-16 h-1 bg-indigo-600 mx-auto my-4"></div>
+          <div className="w-16 h-1 bg-sky-500 mx-auto my-4"></div>
           <p className="max-w-2xl mx-auto text-xl text-gray-500">
             Here are some of my recent works
           </p>
@@ -39,7 +39,7 @@ export default function Projects() {
                 <p className="mt-2 text-gray-600">{project.description}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <span key={tech} className="px-2 py-1 text-xs font-medium bg-indigo-100 text-indigo-800 rounded-full">
+                    <span key={tech} className="px-2 py-1 text-xs font-medium bg-sky-100 text-sky-700 rounded-full">
                       {tech}
                     </span>
                   ))}
@@ -50,7 +50,7 @@ export default function Projects() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-indigo-600 hover:text-indigo-800"
+                      className="text-sky-500 hover:text-sky-700"
                     >
                       View Live
                     </a>

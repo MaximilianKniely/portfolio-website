@@ -9,7 +9,7 @@ export default function About() {
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             About Me
           </h2>
-          <div className="w-16 h-1 bg-indigo-600 mx-auto my-4"></div>
+          <div className="w-16 h-1 bg-sky-500 mx-auto my-4"></div>
           <p className="max-w-2xl mx-auto text-xl text-gray-500">
             Get to know more about my skills and experience
           </p>
@@ -43,44 +43,56 @@ export default function About() {
               <div>
                 <ul className="space-y-2">
                   <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    Next.js
+                    <div className="flex-shrink-0 w-5 h-5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">Next.js</span>
                   </li>
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    TypeScript, Tailwind CSS
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-5 h-5 mt-0.5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">TypeScript, Tailwind CSS</span>
                   </li>
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    Databases (MariaDB, MongoDB, Oracle)
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-5 h-5 mt-0.5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">Databases (MariaDB, MongoDB, Oracle)</span>
                   </li>
                 </ul>
               </div>
               <div>
                 <ul className="space-y-2">
                   <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    Python
+                    <div className="flex-shrink-0 w-5 h-5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">Python</span>
                   </li>
                   <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    C++
+                    <div className="flex-shrink-0 w-5 h-5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">C++</span>
                   </li>
                   <li className="flex items-center">
-                    <svg className="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    Java
+                    <div className="flex-shrink-0 w-5 h-5">
+                      <svg className="h-5 w-5 text-sky-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="ml-2">Java</span>
                   </li>
                 </ul>
               </div>

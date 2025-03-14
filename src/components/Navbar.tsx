@@ -43,7 +43,7 @@ export default function Navbar() {
             <div className="ml-10 flex items-center space-x-8">
               <Link href="/#about" className="hover:text-indigo-600 font-medium text-black">About</Link>
               <Link href="/#projects" className="hover:text-indigo-600 font-medium text-black">Projects</Link>
-              <Link href="/#contact" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">Contact</Link>
+              <Link href="/#contact" className="bg-sky-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 transition">Contact</Link>
             </div>
           </div>
 

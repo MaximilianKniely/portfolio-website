@@ -43,12 +43,12 @@ export default function PrivacyPolicy() {
               <li>Geographic distribution of visitors</li>
             </ul>
             <p className="text-gray-700 mt-4">
-              This data is processed by Google Analytics on our behalf and is subject to Google's privacy policy. No personally identifiable information is intentionally collected or shared with third parties.
+              This data is processed by Google Analytics on our behalf and is subject to Google&apos;s privacy policy. No personally identifiable information is intentionally collected or shared with third parties.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-10">3. Cookies and Tracking Technologies</h2>
             <p className="text-gray-700">
-              This website uses cookies through Google Analytics to track user interactions and collect anonymous usage data. Google Analytics places cookies on visitors' devices to gather information about their browsing behavior on our site.
+              This website uses cookies through Google Analytics to track user interactions and collect anonymous usage data. Google Analytics places cookies on visitors&apos; devices to gather information about their browsing behavior on our site.
             </p>
             <p className="text-gray-700 mt-4">
               These cookies collect information such as:
